@@ -17,7 +17,7 @@ describe("Engineer", () => {
   });
   describe("getRole", () => {
     it("You got the Role", () => {
-      const printedId = employee.getId();
+      const printedId = engineer.getRole();
       expect(printedId).toBe("Engineer");
     });
   });

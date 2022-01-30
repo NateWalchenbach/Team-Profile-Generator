@@ -13,7 +13,7 @@ describe("Intern", () => {
   describe("getRole", () => {
     it("You got the Role", () => {
       const printedRole = intern.getRole();
-      expect(printedRole).toBe("intern");
+      expect(printedRole).toBe("Intern");
     });
   });
 });
