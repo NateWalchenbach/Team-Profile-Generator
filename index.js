@@ -2,17 +2,20 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const Engineer = require("./lib/Engineer");
+const Manager = require("./lib/Manager");
 
 function toEmployeeClass(data) {
-  const { name, id, email, github } = data;
+  const { name, id, email, github, school, officeNumber } = data;
   if (data.role === "Engineer") {
     return new Engineer(name, id, email, github);
   }
   if (data.role === "Intern") {
     // return new Intern;
+    return new Intern(name, id, email, school);
   }
   if (data.role === "Manager") {
     // return new Manager
+    return new Manager(name, id, email, officeNumber);
   }
 }
 
