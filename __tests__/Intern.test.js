@@ -2,17 +2,17 @@ const Engineer = require("../lib/Intern");
 describe("Intern", () => {
   let intern;
   beforeEach(() => {
-    intern = new Engineer(
+    intern = new Intern(
       "Nate",
       1,
       "natewalchenbach24@gmail.com",
       "natewalchenbach"
     );
   });
-  describe("getGithub", () => {
+  describe("getSchool", () => {
     it("you got the github username!", () => {
-      const result = intern.getGithub();
-      expect(result).toBe("natewalchenbach");
+      const result = intern.getSchool();
+      expect(result).toBe("school");
     });
   });
 });

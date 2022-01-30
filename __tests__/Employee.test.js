@@ -18,4 +18,10 @@ describe("Employee", () => {
       expect(printedId).toBe(1);
     });
   });
+  describe("getRole", () => {
+    it("You got the Role", () => {
+      const printedId = employee.getId();
+      expect(printedId).toBe("Employee");
+    });
+  });
 });
