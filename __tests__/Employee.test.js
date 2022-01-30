@@ -20,8 +20,8 @@ describe("Employee", () => {
   });
   describe("getRole", () => {
     it("You got the Role", () => {
-      const printedId = employee.getId();
-      expect(printedId).toBe("Employee");
+      const printedRole = employee.getRole();
+      expect(printedRole).toBe("Employee");
     });
   });
 });

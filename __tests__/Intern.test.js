@@ -1,4 +1,4 @@
-const Engineer = require("../lib/Intern");
+const Intern = require("../lib/Intern");
 describe("Intern", () => {
   let intern;
   beforeEach(() => {
@@ -13,6 +13,12 @@ describe("Intern", () => {
     it("you got the github username!", () => {
       const result = intern.getSchool();
       expect(result).toBe("school");
+    });
+  });
+  describe("getRole", () => {
+    it("You got the Role", () => {
+      const printedRole = employee.getRole();
+      expect(printedRole).toBe("intern");
     });
   });
 });
