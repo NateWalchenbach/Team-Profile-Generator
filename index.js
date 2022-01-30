@@ -109,10 +109,6 @@ const questions = [
 inquirer
   .prompt(questions)
   .then((data) => {
-    // console.log(data);
-    // const formatData = data.map((d) => {
-    //   return toEmployeeClass(d);
-    // });
     fs.writeFileSync(
       `./dist/index.html`,
       createTemplate([toEmployeeClass(data)])
