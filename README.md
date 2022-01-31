@@ -58,8 +58,6 @@ Here is a walkthrough [video]() that demonstrates the application's functionalit
 
 ## Sample Profile Page
 
-<!-- Put ./asets/screenshot.png here -->
-
 ![Screenshot](./asets/screenshot.png)
 
 ## Technologies Used
