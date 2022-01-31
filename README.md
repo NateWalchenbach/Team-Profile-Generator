@@ -58,7 +58,7 @@ Here is a walkthrough [video]() that demonstrates the application's functionalit
 
 ## Sample Profile Page
 
-![Screenshot](./asets/screenshot.png)
+![Screenshot](./assets/Screenshot.png)
 
 ## Technologies Used
 
