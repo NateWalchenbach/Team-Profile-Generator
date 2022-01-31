@@ -62,12 +62,12 @@ Here is a walkthrough [video]() that demonstrates the application's functionalit
 
 ## Technologies Used
 
-- CSS
-- JavaScript
-- HTML
-- Bootstrap
+- CSS (styling)
+- JavaScript (logic)
+- HTML (markup)
+- Bootstrap (styling)
 - Inquirer
-- Jest
+- Jest (Testing)
 
 ## Questions
 
