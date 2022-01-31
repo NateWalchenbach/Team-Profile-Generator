@@ -60,7 +60,7 @@ Here is a walkthrough [video]() that demonstrates the application's functionalit
 
 <!-- Put ./asets/screenshot.png here -->
 
-![Screenshot]()
+![Screenshot](./asets/screenshot.png)
 
 ## Technologies Used
 
